@@ -1,0 +1,39 @@
+.student-record {
+    width: 50%;
+    margin: 40px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  .student-record h2 {
+    text-align: center;
+  }
+  .student-record form {
+    margin-top: 20px;
+  }
+  .student-record label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  .student-record input, .student-record textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+  }
+  .student-record button {
+    width: 100%;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  .student-record button:hover {
+    background-color: #3e8e41;
+  }
+  #student-info {
+    margin-top: 20px;
+  }

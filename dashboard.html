@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Studdent's dashboeard</title>
+    <link rel="stylesheet" href="dashboard.css">
+</head>
+<body>
+    <div class="student-record">
+        <h2>Student Record</h2>
+        <form>
+          <label for ="student-number">Student Number:</label>
+          <input type="text" id="student-number" name="student-number"><br><br>
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name"><br><br>
+          <label for="git-repos">Git Repositories:</label>
+          <textarea id="git-repos" name="git-repos"></textarea><br><br>
+          <button id="submit-btn">Submit</button>
+        </form>
+        <div id="student-info"></div>
+      </div>
+    <script src="dashboard.js">
+
+    </script>
+</body>
+</html>

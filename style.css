@@ -1,0 +1,23 @@
+body{
+    background-color: purple ;
+     
+}
+/* CSS (optional) */
+.navbar {
+    padding: 1rem 2rem;
+  }
+  
+  .navbar-brand {
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: cursive;
+    justify-content: space-around;
+  }
+.navbar-nav{
+    font-weight: 500;
+    font-family: cursive;
+    margin-left: 350px;
+}
+.btn{
+border-radius: 50%;
+}
